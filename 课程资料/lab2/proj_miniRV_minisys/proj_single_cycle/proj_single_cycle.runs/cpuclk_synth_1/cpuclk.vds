@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jul 16 15:47:48 2025
+# Process ID: 3376
+# Current directory: D:/personal_archive/2025summer/my_cpu/microRVCPU/课程资料/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/cpuclk_synth_1
+# Command line: vivado.exe -log cpuclk.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpuclk.tcl
+# Log file: D:/personal_archive/2025summer/my_cpu/microRVCPU/课程资料/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/cpuclk_synth_1/cpuclk.vds
+# Journal file: D:/personal_archive/2025summer/my_cpu/microRVCPU/课程资料/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/cpuclk_synth_1\vivado.jou
+#-----------------------------------------------------------
+source cpuclk.tcl -notrace
+Command: synth_design -top cpuclk -part xc7a100tfgg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24600 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 367.582 ; gain = 97.859
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'cpuclk' [d:/personal_archive/2025summer/my_cpu/microRVCPU/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/cpuclk_1/cpuclk.v:70]
+INFO: [Synth 8-6157] synthesizing module 'cpuclk_clk_wiz' [d:/personal_archive/2025summer/my_cpu/microRVCPU/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/cpuclk_1/cpuclk_clk_wiz.v:68]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:20408]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (1#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:20408]
+INFO: [Synth 8-6157] synthesizing module 'PLLE2_ADV' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41045]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 33 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE bound to: 33 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 4 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'PLLE2_ADV' (2#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41045]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (3#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'cpuclk_clk_wiz' (4#1) [d:/personal_archive/2025summer/my_cpu/microRVCPU/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/cpuclk_1/cpuclk_clk_wiz.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'cpuclk' (5#1) [d:/personal_archive/2025summer/my_cpu/microRVCPU/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/cpuclk_1/cpuclk.v:70]

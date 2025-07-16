@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jul 16 18:49:32 2025
+# Process ID: 25264
+# Current directory: C:/Users/29926/Desktop/demo/proj_single_cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10444 C:\Users\29926\Desktop\demo\proj_single_cycle\proj_single_cycle.xpr
+# Log file: C:/Users/29926/Desktop/demo/proj_single_cycle/vivado.log
+# Journal file: C:/Users/29926/Desktop/demo/proj_single_cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/29926/Desktop/demo/proj_single_cycle/proj_single_cycle.xpr
+INFO: [Project 1-313] Project file moved from 'F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/29926/Desktop/demo/proj_single_cycle/IROM_1.coe', nor could it be found using path 'F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/IROM_1.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 16 18:51:14 2025...
