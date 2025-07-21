@@ -164,7 +164,7 @@ module miniRV_SoC (
 
     DRAM Mem_DRAM (
         .clk        (clk_bridge2dram),
-        .a          (addr_bridge2dram[15:2]),
+        .a          (waddr_tmp[15:2]),
         .spo        (rdata_dram2bridge),
         .we         (we_bridge2dram),
         .d          (wdata_bridge2dram)
