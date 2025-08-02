@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
--- Date        : Fri Jul 18 10:03:42 2025
+-- Date        : Fri Jul 18 10:03:41 2025
 -- Host        : Wild-Taro running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/DRAM/DRAM_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top DRAM -prefix
+--               DRAM_ DRAM_sim_netlist.vhdl
 -- Design      : DRAM
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -22,8 +22,6 @@ entity DRAM_spram is
     d : in STD_LOGIC_VECTOR ( 31 downto 0 );
     we : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of DRAM_spram : entity is "spram";
 end DRAM_spram;
 
 architecture STRUCTURE of DRAM_spram is
@@ -47002,8 +47000,6 @@ entity DRAM_dist_mem_gen_v8_0_12_synth is
     d : in STD_LOGIC_VECTOR ( 31 downto 0 );
     we : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of DRAM_dist_mem_gen_v8_0_12_synth : entity is "dist_mem_gen_v8_0_12_synth";
 end DRAM_dist_mem_gen_v8_0_12_synth;
 
 architecture STRUCTURE of DRAM_dist_mem_gen_v8_0_12_synth is
@@ -47105,8 +47101,6 @@ entity DRAM_dist_mem_gen_v8_0_12 is
   attribute C_SYNC_ENABLE of DRAM_dist_mem_gen_v8_0_12 : entity is 1;
   attribute C_WIDTH : integer;
   attribute C_WIDTH of DRAM_dist_mem_gen_v8_0_12 : entity is 32;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of DRAM_dist_mem_gen_v8_0_12 : entity is "dist_mem_gen_v8_0_12";
 end DRAM_dist_mem_gen_v8_0_12;
 
 architecture STRUCTURE of DRAM_dist_mem_gen_v8_0_12 is

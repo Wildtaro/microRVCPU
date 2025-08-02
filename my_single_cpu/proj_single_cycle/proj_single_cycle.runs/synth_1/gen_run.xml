@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tfgg484-1" LaunchTime="1752654921">
+<GenRun Id="synth_1" LaunchPart="xc7a100tfgg484-1" LaunchTime="1753187387">
   <File Type="PA-TCL" Name="miniRV_SoC.tcl"/>
   <File Type="REPORTS-TCL" Name="miniRV_SoC_reports.tcl"/>
   <File Type="RDS-RDS" Name="miniRV_SoC.vds"/>

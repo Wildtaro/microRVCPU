@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/DRAM_synth_1'
+HD_PWD='D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/DRAM_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

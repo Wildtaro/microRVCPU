@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
--- Date        : Mon Jul 14 23:08:13 2025
+-- Date        : Mon Jul 14 23:08:12 2025
 -- Host        : DESKTOP-LAOBFPA running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               f:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/DRAM/DRAM_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top DRAM -prefix
+--               DRAM_ DRAM_stub.vhdl
 -- Design      : DRAM
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tfgg484-1

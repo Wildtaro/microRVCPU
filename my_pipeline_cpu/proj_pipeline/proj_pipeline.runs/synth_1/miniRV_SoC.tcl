@@ -17,58 +17,57 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7a100tfgg484-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.cache/wt [current_project]
-set_property parent.project_path D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.xpr [current_project]
+set_property webtalk.parent_dir D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.cache/wt [current_project]
+set_property parent.project_path D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.xpr [current_project]
 set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.cache/ip [current_project]
+set_property ip_output_repo d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-add_files D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/inst_rom.coe
-add_files D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/data_ram.coe
-add_files D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/IROM_1.coe
-read_verilog D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/defines.vh
+add_files D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/inst_rom.coe
+add_files D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/data_ram.coe
+add_files D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/IROM_1.coe
+read_verilog D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/defines.vh
 read_verilog -library xil_defaultlib {
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ALU.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/Bridge.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/NPC.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/PC.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/RF.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/SEXT.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/btn.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/dig.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/execute.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/idecode.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ifetch.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/led.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/memory.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_EX_MEM.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_ID_EX.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_IF_ID.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_MEM_WB.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/sw.v
-  D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/miniRV_SoC.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ALU.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/Bridge.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/NPC.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/PC.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/RF.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/SEXT.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/btn.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/dig.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/execute.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/idecode.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ifetch.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/led.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/memory.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_EX_MEM.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_ID_EX.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_IF_ID.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_MEM_WB.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/sw.v
+  D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/miniRV_SoC.v
 }
-read_ip -quiet D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/IROM/IROM.xci
-set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/IROM/IROM_ooc.xdc]
+read_ip -quiet D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/IROM/IROM.xci
+set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/IROM/IROM_ooc.xdc]
 
-read_ip -quiet D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk.xci
-set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk_board.xdc]
-set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk.xdc]
-set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk_ooc.xdc]
+read_ip -quiet D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk.xci
+set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk_board.xdc]
+set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk.xdc]
+set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk_ooc.xdc]
 
-read_ip -quiet D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/DRAM/DRAM.xci
-set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/DRAM/DRAM_ooc.xdc]
+read_ip -quiet D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/DRAM/DRAM.xci
+set_property used_in_implementation false [get_files -all d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/DRAM/DRAM_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -78,11 +77,11 @@ set_property used_in_implementation false [get_files -all d:/personal_archive/20
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc
-set_property used_in_implementation false [get_files D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc]
+read_xdc D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc
+set_property used_in_implementation false [get_files D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc]
 
-read_xdc D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc
-set_property used_in_implementation false [get_files D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc]
+read_xdc D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc
+set_property used_in_implementation false [get_files D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

@@ -2,12 +2,12 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Fri Jul 18 11:55:40 2025
-# Process ID: 4324
-# Current directory: D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1
+# Start of session at: Thu Jul 31 19:00:04 2025
+# Process ID: 6744
+# Current directory: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1
 # Command line: vivado.exe -log miniRV_SoC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source miniRV_SoC.tcl
-# Log file: D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/miniRV_SoC.vds
-# Journal file: D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1\vivado.jou
+# Log file: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/miniRV_SoC.vds
+# Journal file: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source miniRV_SoC.tcl -notrace
 Command: synth_design -top miniRV_SoC -part xc7a100tfgg484-1
@@ -15,45 +15,45 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 26212 
-WARNING: [Synth 8-976] ex_ext_wire has already been declared [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:81]
-WARNING: [Synth 8-2654] second declaration of ex_ext_wire ignored [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:81]
-INFO: [Synth 8-994] ex_ext_wire is declared here [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:66]
+INFO: Helper process launched with PID 23168 
+WARNING: [Synth 8-976] ex_ext_wire has already been declared [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:81]
+WARNING: [Synth 8-2654] second declaration of ex_ext_wire ignored [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:81]
+INFO: [Synth 8-994] ex_ext_wire is declared here [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:66]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 381.164 ; gain = 114.723
+Starting RTL Elaboration : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.962 . Memory (MB): peak = 381.934 ; gain = 115.461
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'miniRV_SoC' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/miniRV_SoC.v:4]
-INFO: [Synth 8-6157] synthesizing module 'cpuclk' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-4324-Wild-Taro/realtime/cpuclk_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'cpuclk' (1#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-4324-Wild-Taro/realtime/cpuclk_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'myCPU' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:5]
-INFO: [Synth 8-6157] synthesizing module 'ifetch' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ifetch.v:3]
-INFO: [Synth 8-6157] synthesizing module 'NPC' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/NPC.v:3]
+INFO: [Synth 8-6157] synthesizing module 'miniRV_SoC' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/miniRV_SoC.v:4]
+INFO: [Synth 8-6157] synthesizing module 'cpuclk' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-6744-DESKTOP-91GG7PK/realtime/cpuclk_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'cpuclk' (1#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-6744-DESKTOP-91GG7PK/realtime/cpuclk_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myCPU' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'ifetch' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ifetch.v:3]
+INFO: [Synth 8-6157] synthesizing module 'NPC' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/NPC.v:3]
 	Parameter PC4 bound to: 2'b00 
 	Parameter BEQ bound to: 2'b01 
 	Parameter JMP bound to: 2'b10 
-INFO: [Synth 8-6155] done synthesizing module 'NPC' (2#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/NPC.v:3]
-INFO: [Synth 8-6157] synthesizing module 'PC' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/PC.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'PC' (3#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/PC.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'ifetch' (4#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ifetch.v:3]
-INFO: [Synth 8-6157] synthesizing module 'reg_IF_ID' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_IF_ID.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'reg_IF_ID' (5#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_IF_ID.v:3]
-INFO: [Synth 8-6157] synthesizing module 'idecode' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/idecode.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'NPC' (2#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/NPC.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PC' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/PC.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (3#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/PC.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ifetch' (4#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ifetch.v:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_IF_ID' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_IF_ID.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'reg_IF_ID' (5#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_IF_ID.v:3]
+INFO: [Synth 8-6157] synthesizing module 'idecode' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/idecode.v:3]
 	Parameter WD_ALUC bound to: 2'b00 
 	Parameter WD_RAM bound to: 2'b01 
 	Parameter WD_EXT bound to: 2'b10 
 	Parameter WD_PC4 bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/idecode.v:24]
-INFO: [Synth 8-6157] synthesizing module 'RF' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/RF.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'RF' (6#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/RF.v:3]
-INFO: [Synth 8-6157] synthesizing module 'SEXT' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/SEXT.v:3]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/idecode.v:24]
+INFO: [Synth 8-6157] synthesizing module 'RF' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/RF.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'RF' (6#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/RF.v:3]
+INFO: [Synth 8-6157] synthesizing module 'SEXT' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/SEXT.v:3]
 	Parameter SEXT_I bound to: 3'b000 
 	Parameter SEXT_S bound to: 3'b001 
 	Parameter SEXT_B bound to: 3'b010 
 	Parameter SEXT_U bound to: 3'b011 
 	Parameter SEXT_J bound to: 3'b100 
-INFO: [Synth 8-6155] done synthesizing module 'SEXT' (7#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/SEXT.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'idecode' (8#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/idecode.v:3]
-INFO: [Synth 8-6157] synthesizing module 'control' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SEXT' (7#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/SEXT.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'idecode' (8#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/idecode.v:3]
+INFO: [Synth 8-6157] synthesizing module 'control' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v:3]
 	Parameter PC4 bound to: 2'b00 
 	Parameter BEQ bound to: 2'b01 
 	Parameter JMP bound to: 2'b10 
@@ -88,13 +88,13 @@ INFO: [Synth 8-6157] synthesizing module 'control' [D:/personal_archive/2025summ
 	Parameter RDO_LH bound to: 3'b010 
 	Parameter RDO_LHU bound to: 3'b011 
 	Parameter RDO_LW bound to: 3'b100 
-INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v:90]
-INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v:103]
-INFO: [Synth 8-6155] done synthesizing module 'control' (9#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v:3]
-INFO: [Synth 8-6157] synthesizing module 'reg_ID_EX' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_ID_EX.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'reg_ID_EX' (10#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_ID_EX.v:3]
-INFO: [Synth 8-6157] synthesizing module 'execute' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/execute.v:3]
-INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v:90]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v:103]
+INFO: [Synth 8-6155] done synthesizing module 'control' (9#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/control.v:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_ID_EX' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_ID_EX.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'reg_ID_EX' (10#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_ID_EX.v:3]
+INFO: [Synth 8-6157] synthesizing module 'execute' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/execute.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ALU.v:3]
 	Parameter ADD bound to: 4'b0000 
 	Parameter SUB bound to: 4'b0001 
 	Parameter AND bound to: 4'b0010 
@@ -109,11 +109,11 @@ INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/personal_archive/2025summer/m
 	Parameter GE bound to: 4'b1011 
 	Parameter LTU bound to: 4'b1100 
 	Parameter GEU bound to: 4'b1101 
-INFO: [Synth 8-6155] done synthesizing module 'ALU' (11#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ALU.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'execute' (12#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/execute.v:3]
-INFO: [Synth 8-6157] synthesizing module 'reg_EX_MEM' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_EX_MEM.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'reg_EX_MEM' (13#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_EX_MEM.v:3]
-INFO: [Synth 8-6157] synthesizing module 'memory' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/memory.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (11#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'execute' (12#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/execute.v:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_EX_MEM' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_EX_MEM.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'reg_EX_MEM' (13#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_EX_MEM.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/memory.v:3]
 	Parameter WRAM_SB bound to: 2'b00 
 	Parameter WRAM_SH bound to: 2'b01 
 	Parameter WRAM_SW bound to: 2'b10 
@@ -122,35 +122,35 @@ INFO: [Synth 8-6157] synthesizing module 'memory' [D:/personal_archive/2025summe
 	Parameter RDO_LH bound to: 3'b010 
 	Parameter RDO_LHU bound to: 3'b011 
 	Parameter RDO_LW bound to: 3'b100 
-INFO: [Synth 8-6155] done synthesizing module 'memory' (14#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/memory.v:3]
-INFO: [Synth 8-6157] synthesizing module 'reg_MEM_WB' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_MEM_WB.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'reg_MEM_WB' (15#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_MEM_WB.v:3]
-INFO: [Synth 8-6157] synthesizing module 'hazard' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'memory' (14#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/memory.v:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_MEM_WB' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_MEM_WB.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'reg_MEM_WB' (15#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/reg_MEM_WB.v:3]
+INFO: [Synth 8-6157] synthesizing module 'hazard' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:3]
 	Parameter WD_ALUC bound to: 2'b00 
 	Parameter WD_RAM bound to: 2'b01 
 	Parameter WD_EXT bound to: 2'b10 
 	Parameter WD_PC4 bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:64]
-INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:83]
-INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:123]
-INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:142]
-INFO: [Synth 8-6155] done synthesizing module 'hazard' (16#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'myCPU' (17#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:5]
-INFO: [Synth 8-6157] synthesizing module 'IROM' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-4324-Wild-Taro/realtime/IROM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'IROM' (18#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-4324-Wild-Taro/realtime/IROM_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'Bridge' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/Bridge.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Bridge' (19#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/Bridge.v:5]
-INFO: [Synth 8-6157] synthesizing module 'DRAM' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-4324-Wild-Taro/realtime/DRAM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'DRAM' (20#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-4324-Wild-Taro/realtime/DRAM_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'dig' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/dig.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'dig' (21#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/dig.v:3]
-INFO: [Synth 8-6157] synthesizing module 'led' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/led.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'led' (22#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/led.v:3]
-INFO: [Synth 8-6157] synthesizing module 'sw' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/sw.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'sw' (23#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/sw.v:3]
-INFO: [Synth 8-6157] synthesizing module 'btn' [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/btn.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'btn' (24#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/btn.v:3]
-INFO: [Synth 8-6155] done synthesizing module 'miniRV_SoC' (25#1) [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/miniRV_SoC.v:4]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:64]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:83]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:123]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:142]
+INFO: [Synth 8-6155] done synthesizing module 'hazard' (16#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/hazard.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'myCPU' (17#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/myCPU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'IROM' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-6744-DESKTOP-91GG7PK/realtime/IROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'IROM' (18#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-6744-DESKTOP-91GG7PK/realtime/IROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Bridge' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/Bridge.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Bridge' (19#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/Bridge.v:5]
+INFO: [Synth 8-6157] synthesizing module 'DRAM' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-6744-DESKTOP-91GG7PK/realtime/DRAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DRAM' (20#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/.Xil/Vivado-6744-DESKTOP-91GG7PK/realtime/DRAM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dig' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/dig.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'dig' (21#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/dig.v:3]
+INFO: [Synth 8-6157] synthesizing module 'led' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/led.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'led' (22#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/led.v:3]
+INFO: [Synth 8-6157] synthesizing module 'sw' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/sw.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'sw' (23#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/sw.v:3]
+INFO: [Synth 8-6157] synthesizing module 'btn' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/btn.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'btn' (24#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/btn.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'miniRV_SoC' (25#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/new/miniRV_SoC.v:4]
 WARNING: [Synth 8-3331] design btn has unconnected port rst
 WARNING: [Synth 8-3331] design btn has unconnected port clk
 WARNING: [Synth 8-3331] design btn has unconnected port addr[31]
@@ -253,7 +253,7 @@ WARNING: [Synth 8-3331] design led has unconnected port addr[1]
 WARNING: [Synth 8-3331] design led has unconnected port addr[0]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 418.801 ; gain = 152.359
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 420.047 ; gain = 153.574
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -266,61 +266,61 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 418.801 ; gain = 152.359
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 420.047 ; gain = 153.574
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 418.801 ; gain = 152.359
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 420.047 ; gain = 153.574
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tfgg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/IROM/IROM/IROM_in_context.xdc] for cell 'Mem_IROM'
-Finished Parsing XDC File [d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/IROM/IROM/IROM_in_context.xdc] for cell 'Mem_IROM'
-Parsing XDC File [d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'Clkgen'
-Finished Parsing XDC File [d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'Clkgen'
-Parsing XDC File [d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/DRAM/DRAM/DRAM_in_context.xdc] for cell 'Mem_DRAM'
-Finished Parsing XDC File [d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/DRAM/DRAM/DRAM_in_context.xdc] for cell 'Mem_DRAM'
-Parsing XDC File [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc]
-WARNING: [Constraints 18-619] A clock with name 'fpga_clk' already exists, overwriting the previous clock with the same name. [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc:2]
-Finished Parsing XDC File [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc]
-Parsing XDC File [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc]
-Finished Parsing XDC File [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/miniRV_SoC_propImpl.xdc].
+Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/IROM/IROM/IROM_in_context.xdc] for cell 'Mem_IROM'
+Finished Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/IROM/IROM/IROM_in_context.xdc] for cell 'Mem_IROM'
+Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'Clkgen'
+Finished Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'Clkgen'
+Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/DRAM/DRAM/DRAM_in_context.xdc] for cell 'Mem_DRAM'
+Finished Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/DRAM/DRAM/DRAM_in_context.xdc] for cell 'Mem_DRAM'
+Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc]
+WARNING: [Constraints 18-619] A clock with name 'fpga_clk' already exists, overwriting the previous clock with the same name. [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc:2]
+Finished Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc]
+Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc]
+Finished Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_SoC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/miniRV_SoC_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/miniRV_SoC_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/dont_touch.xdc]
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.289 ; gain = 0.000
+Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 788.309 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.289 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.309 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.289 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 788.289 ; gain = 0.000
-WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Mem_DRAM' at clock pin 'clk' is different from the actual clock period '11.765', this can lead to different synthesis results.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.309 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 788.309 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Mem_DRAM' at clock pin 'clk' is different from the actual clock period '12.500', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 788.289 ; gain = 521.848
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 788.309 ; gain = 521.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tfgg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 788.289 ; gain = 521.848
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 788.309 ; gain = 521.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for fpga_clk. (constraint file  d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for fpga_clk. (constraint file  d:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for fpga_clk. (constraint file  d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for fpga_clk. (constraint file  d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 4).
 Applied set_property DONT_TOUCH = true for Mem_IROM. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Clkgen. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Mem_DRAM. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 788.289 ; gain = 521.848
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 788.309 ; gain = 521.836
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "ram_wdin_op" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "ram_we0" won't be mapped to RAM because it is too sparse
@@ -337,7 +337,7 @@ INFO: [Synth 8-5545] ROM "access_dig" won't be mapped to RAM because address siz
 INFO: [Synth 8-5545] ROM "access_led" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5546] ROM "rdata" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 788.289 ; gain = 521.848
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 788.309 ; gain = 521.836
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -557,7 +557,7 @@ WARNING: [Synth 8-3917] design miniRV_SoC has port DN_DP driven by constant 1
 INFO: [Synth 8-3886] merging instance 'Core_cpu/U_IF_ID/id_pc4_reg[0]' (FDCE) to 'Core_cpu/U_IF_ID/id_pc_reg[0]'
 INFO: [Synth 8-3886] merging instance 'Core_cpu/U_ID_EX/ex_pc4_reg[0]' (FDC) to 'Core_cpu/U_ID_EX/ex_pc_reg[0]'
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 788.289 ; gain = 521.848
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 788.309 ; gain = 521.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -587,13 +587,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'Clkgen/clk_out1' to pin '
 WARNING: [Synth 8-565] redefining clock 'fpga_clk'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 788.289 ; gain = 521.848
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 788.309 ; gain = 521.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 864.414 ; gain = 597.973
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 865.438 ; gain = 598.965
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -619,7 +619,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 865.430 ; gain = 598.988
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 866.504 ; gain = 600.031
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -643,7 +643,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 865.430 ; gain = 598.988
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 866.504 ; gain = 600.031
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -656,7 +656,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 865.430 ; gain = 598.988
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 866.504 ; gain = 600.031
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -668,25 +668,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 865.430 ; gain = 598.988
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 866.504 ; gain = 600.031
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 865.430 ; gain = 598.988
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 866.504 ; gain = 600.031
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 865.430 ; gain = 598.988
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 866.504 ; gain = 600.031
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 865.430 ; gain = 598.988
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 866.504 ; gain = 600.031
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -745,17 +745,17 @@ Report Instance Areas:
 |15    |  U_led          |led        |    24|
 +------+-----------------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 865.430 ; gain = 598.988
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 866.504 ; gain = 600.031
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 865.430 ; gain = 229.500
-Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 865.430 ; gain = 598.988
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 866.504 ; gain = 231.770
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 866.504 ; gain = 600.031
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 865.430 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 866.504 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 12 instances were transformed.
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
@@ -763,10 +763,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 101 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 865.430 ; gain = 602.691
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 865.430 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 866.504 ; gain = 605.566
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 866.504 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/miniRV_SoC.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/synth_1/miniRV_SoC.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file miniRV_SoC_utilization_synth.rpt -pb miniRV_SoC_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Jul 18 11:56:03 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 31 19:00:25 2025...

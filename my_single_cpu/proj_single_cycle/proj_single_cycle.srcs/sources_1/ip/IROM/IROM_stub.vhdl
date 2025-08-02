@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
--- Date        : Wed Jul 16 18:57:07 2025
--- Host        : Wild-Taro running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               C:/Users/29926/Desktop/demo/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/IROM/IROM_stub.vhdl
+-- Date        : Mon Jul 14 23:10:32 2025
+-- Host        : DESKTOP-LAOBFPA running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode synth_stub -rename_top IROM -prefix
+--               IROM_ IROM_stub.vhdl
 -- Design      : IROM
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tfgg484-1

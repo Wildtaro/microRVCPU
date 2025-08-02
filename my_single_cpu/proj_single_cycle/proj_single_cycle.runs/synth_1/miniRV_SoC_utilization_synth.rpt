@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Wed Jul 16 16:35:55 2025
-| Host         : DESKTOP-LAOBFPA running 64-bit major release  (build 9200)
+| Date         : Tue Jul 22 20:30:18 2025
+| Host         : DESKTOP-91GG7PK running 64-bit major release  (build 9200)
 | Command      : report_utilization -file miniRV_SoC_utilization_synth.rpt -pb miniRV_SoC_utilization_synth.pb
 | Design       : miniRV_SoC
 | Device       : 7a100tfgg484-1

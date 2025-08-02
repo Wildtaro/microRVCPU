@@ -2,12 +2,12 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Wed Jul 16 16:35:23 2025
-# Process ID: 16104
-# Current directory: F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1
+# Start of session at: Tue Jul 22 20:29:54 2025
+# Process ID: 21272
+# Current directory: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1
 # Command line: vivado.exe -log miniRV_SoC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source miniRV_SoC.tcl
-# Log file: F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/miniRV_SoC.vds
-# Journal file: F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1\vivado.jou
+# Log file: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/miniRV_SoC.vds
+# Journal file: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source miniRV_SoC.tcl -notrace
 Command: synth_design -top miniRV_SoC -part xc7a100tfgg484-1
@@ -15,24 +15,24 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 18268 
+INFO: Helper process launched with PID 24876 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 395.746 ; gain = 102.340
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 369.926 ; gain = 100.508
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'miniRV_SoC' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/miniRV_SoC.v:5]
-INFO: [Synth 8-6157] synthesizing module 'cpuclk' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-16104-DESKTOP-LAOBFPA/realtime/cpuclk_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'cpuclk' (1#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-16104-DESKTOP-LAOBFPA/realtime/cpuclk_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'myCPU' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/myCPU.v:5]
-INFO: [Synth 8-6157] synthesizing module 'ifetch' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/ifetch.v:23]
-INFO: [Synth 8-6157] synthesizing module 'NPC' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/NPC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'miniRV_SoC' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/miniRV_SoC.v:5]
+INFO: [Synth 8-6157] synthesizing module 'cpuclk' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-21272-DESKTOP-91GG7PK/realtime/cpuclk_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'cpuclk' (1#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-21272-DESKTOP-91GG7PK/realtime/cpuclk_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myCPU' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/myCPU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'ifetch' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/ifetch.v:23]
+INFO: [Synth 8-6157] synthesizing module 'NPC' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/NPC.v:23]
 	Parameter PC4 bound to: 2'b00 
 	Parameter BEQ bound to: 2'b01 
 	Parameter JMP bound to: 2'b10 
-INFO: [Synth 8-6155] done synthesizing module 'NPC' (2#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/NPC.v:23]
-INFO: [Synth 8-6157] synthesizing module 'PC' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/PC.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'PC' (3#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/PC.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'ifetch' (4#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/ifetch.v:23]
-INFO: [Synth 8-6157] synthesizing module 'control' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'NPC' (2#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/NPC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (3#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ifetch' (4#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/ifetch.v:23]
+INFO: [Synth 8-6157] synthesizing module 'control' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/control.v:23]
 	Parameter PC4 bound to: 2'b00 
 	Parameter BEQ bound to: 2'b01 
 	Parameter JMP bound to: 2'b10 
@@ -67,11 +67,11 @@ INFO: [Synth 8-6157] synthesizing module 'control' [F:/Experiment/hitsz_cpu_desi
 	Parameter RDO_LH bound to: 3'b010 
 	Parameter RDO_LHU bound to: 3'b011 
 	Parameter RDO_LW bound to: 3'b100 
-INFO: [Synth 8-226] default block is never used [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/control.v:117]
-INFO: [Synth 8-226] default block is never used [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/control.v:130]
-INFO: [Synth 8-6155] done synthesizing module 'control' (5#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/control.v:23]
-INFO: [Synth 8-6157] synthesizing module 'execute' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/execute.v:23]
-INFO: [Synth 8-6157] synthesizing module 'ALU' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/control.v:117]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/control.v:130]
+INFO: [Synth 8-6155] done synthesizing module 'control' (5#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'execute' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/execute.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/ALU.v:23]
 	Parameter ALU_ADD bound to: 4'b0000 
 	Parameter ALU_SUB bound to: 4'b0001 
 	Parameter ALU_AND bound to: 4'b0010 
@@ -86,9 +86,9 @@ INFO: [Synth 8-6157] synthesizing module 'ALU' [F:/Experiment/hitsz_cpu_design/L
 	Parameter ALU_GE bound to: 4'b1011 
 	Parameter ALU_LTU bound to: 4'b1100 
 	Parameter ALU_GEU bound to: 4'b1101 
-INFO: [Synth 8-6155] done synthesizing module 'ALU' (6#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/ALU.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'execute' (7#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/execute.v:23]
-INFO: [Synth 8-6157] synthesizing module 'memory' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/memory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (6#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'execute' (7#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/execute.v:23]
+INFO: [Synth 8-6157] synthesizing module 'memory' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/memory.v:23]
 	Parameter WRAM_SB bound to: 2'b00 
 	Parameter WRAM_SH bound to: 2'b01 
 	Parameter WRAM_SW bound to: 2'b10 
@@ -97,41 +97,41 @@ INFO: [Synth 8-6157] synthesizing module 'memory' [F:/Experiment/hitsz_cpu_desig
 	Parameter RDO_LH bound to: 3'b010 
 	Parameter RDO_LHU bound to: 3'b011 
 	Parameter RDO_LW bound to: 3'b100 
-INFO: [Synth 8-6155] done synthesizing module 'memory' (8#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/memory.v:23]
-INFO: [Synth 8-6157] synthesizing module 'idecode' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/idecode.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'memory' (8#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/memory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'idecode' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/idecode.v:23]
 	Parameter WD_ALUC bound to: 2'b00 
 	Parameter WD_RAM bound to: 2'b01 
 	Parameter WD_EXT bound to: 2'b10 
 	Parameter WD_PC4 bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/idecode.v:44]
-INFO: [Synth 8-6157] synthesizing module 'RF' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/RF.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'RF' (9#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/RF.v:23]
-INFO: [Synth 8-6157] synthesizing module 'SEXT' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/SEXT.v:23]
+INFO: [Synth 8-226] default block is never used [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/idecode.v:44]
+INFO: [Synth 8-6157] synthesizing module 'RF' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/RF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RF' (9#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/RF.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SEXT' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/SEXT.v:23]
 	Parameter SEXT_I bound to: 3'b000 
 	Parameter SEXT_S bound to: 3'b001 
 	Parameter SEXT_B bound to: 3'b010 
 	Parameter SEXT_U bound to: 3'b011 
 	Parameter SEXT_J bound to: 3'b100 
-INFO: [Synth 8-6155] done synthesizing module 'SEXT' (10#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/SEXT.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'idecode' (11#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/idecode.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'myCPU' (12#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/myCPU.v:5]
-INFO: [Synth 8-6157] synthesizing module 'IROM' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-16104-DESKTOP-LAOBFPA/realtime/IROM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'IROM' (13#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-16104-DESKTOP-LAOBFPA/realtime/IROM_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'Bridge' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/Bridge.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Bridge' (14#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/Bridge.v:5]
-INFO: [Synth 8-6157] synthesizing module 'DRAM' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-16104-DESKTOP-LAOBFPA/realtime/DRAM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'DRAM' (15#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-16104-DESKTOP-LAOBFPA/realtime/DRAM_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'dig' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/dig.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'dig' (16#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/dig.v:23]
-INFO: [Synth 8-6157] synthesizing module 'led' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/led.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'led' (17#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/led.v:23]
-INFO: [Synth 8-6157] synthesizing module 'sw' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/sw.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'sw' (18#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/sw.v:23]
-INFO: [Synth 8-6157] synthesizing module 'btn' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/btn.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'btn' (19#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/btn.v:23]
-INFO: [Synth 8-6157] synthesizing module 'timer' [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/timer.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'timer' (20#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/timer.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'miniRV_SoC' (21#1) [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/miniRV_SoC.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'SEXT' (10#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/SEXT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'idecode' (11#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/idecode.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'myCPU' (12#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/myCPU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'IROM' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-21272-DESKTOP-91GG7PK/realtime/IROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'IROM' (13#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-21272-DESKTOP-91GG7PK/realtime/IROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Bridge' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/Bridge.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Bridge' (14#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/Bridge.v:5]
+INFO: [Synth 8-6157] synthesizing module 'DRAM' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-21272-DESKTOP-91GG7PK/realtime/DRAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DRAM' (15#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/.Xil/Vivado-21272-DESKTOP-91GG7PK/realtime/DRAM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dig' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/dig.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dig' (16#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/dig.v:23]
+INFO: [Synth 8-6157] synthesizing module 'led' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/led.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'led' (17#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/led.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sw' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/sw.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sw' (18#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/sw.v:23]
+INFO: [Synth 8-6157] synthesizing module 'btn' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/btn.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'btn' (19#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/btn.v:23]
+INFO: [Synth 8-6157] synthesizing module 'timer' [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/timer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'timer' (20#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/timer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'miniRV_SoC' (21#1) [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/new/miniRV_SoC.v:5]
 WARNING: [Synth 8-3331] design btn has unconnected port clk
 WARNING: [Synth 8-3331] design btn has unconnected port rst
 WARNING: [Synth 8-3331] design btn has unconnected port addr[31]
@@ -216,7 +216,7 @@ WARNING: [Synth 8-3331] design control has unconnected port funct7[2]
 WARNING: [Synth 8-3331] design control has unconnected port funct7[1]
 WARNING: [Synth 8-3331] design control has unconnected port funct7[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 451.301 ; gain = 157.895
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 425.277 ; gain = 155.859
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -229,60 +229,60 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 451.301 ; gain = 157.895
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 425.277 ; gain = 155.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 451.301 ; gain = 157.895
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 425.277 ; gain = 155.859
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tfgg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [f:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/IROM/IROM/IROM_in_context.xdc] for cell 'Mem_IROM'
-Finished Parsing XDC File [f:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/IROM/IROM/IROM_in_context.xdc] for cell 'Mem_IROM'
-Parsing XDC File [f:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'Clkgen'
-Finished Parsing XDC File [f:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'Clkgen'
-Parsing XDC File [f:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/DRAM/DRAM/DRAM_in_context.xdc] for cell 'Mem_DRAM'
-Finished Parsing XDC File [f:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/DRAM/DRAM/DRAM_in_context.xdc] for cell 'Mem_DRAM'
-Parsing XDC File [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_clock.xdc]
-WARNING: [Constraints 18-619] A clock with name 'fpga_clk' already exists, overwriting the previous clock with the same name. [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_clock.xdc:2]
-Finished Parsing XDC File [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_clock.xdc]
-Parsing XDC File [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc]
-Finished Parsing XDC File [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/miniRV_SoC_propImpl.xdc].
+Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/IROM/IROM/IROM_in_context.xdc] for cell 'Mem_IROM'
+Finished Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/IROM/IROM/IROM_in_context.xdc] for cell 'Mem_IROM'
+Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'Clkgen'
+Finished Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc] for cell 'Clkgen'
+Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/DRAM/DRAM/DRAM_in_context.xdc] for cell 'Mem_DRAM'
+Finished Parsing XDC File [d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/DRAM/DRAM/DRAM_in_context.xdc] for cell 'Mem_DRAM'
+Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_clock.xdc]
+WARNING: [Constraints 18-619] A clock with name 'fpga_clk' already exists, overwriting the previous clock with the same name. [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_clock.xdc:2]
+Finished Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_clock.xdc]
+Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc]
+Finished Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/miniRV_SoC_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/miniRV_SoC_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/dont_touch.xdc]
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 810.637 ; gain = 0.000
+Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 784.629 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 810.637 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 784.629 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 810.637 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 810.637 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 784.629 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 784.629 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 810.637 ; gain = 517.230
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 784.629 ; gain = 515.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tfgg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 810.637 ; gain = 517.230
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 784.629 ; gain = 515.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for fpga_clk. (constraint file  f:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for fpga_clk. (constraint file  f:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for fpga_clk. (constraint file  d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for fpga_clk. (constraint file  d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk/cpuclk_in_context.xdc, line 4).
 Applied set_property DONT_TOUCH = true for Mem_IROM. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Clkgen. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Mem_DRAM. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 810.637 ; gain = 517.230
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 784.629 ; gain = 515.211
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "ram_wdin_op" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "pc_sel0" won't be mapped to RAM because it is too sparse
@@ -302,7 +302,7 @@ INFO: [Synth 8-5545] ROM "freq_div" won't be mapped to RAM because address size 
 INFO: [Synth 8-5545] ROM "cnt_max" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "timer_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 810.637 ; gain = 517.230
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 784.629 ; gain = 515.211
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -489,7 +489,7 @@ WARNING: [Synth 8-3331] design control has unconnected port funct7[2]
 WARNING: [Synth 8-3331] design control has unconnected port funct7[1]
 WARNING: [Synth 8-3331] design control has unconnected port funct7[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 810.820 ; gain = 517.414
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 784.629 ; gain = 515.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -519,13 +519,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'Clkgen/clk_out1' to pin '
 WARNING: [Synth 8-565] redefining clock 'fpga_clk'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 810.820 ; gain = 517.414
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 784.629 ; gain = 515.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 840.848 ; gain = 547.441
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 816.000 ; gain = 546.582
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -551,7 +551,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 908.742 ; gain = 615.336
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 881.934 ; gain = 612.516
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -575,7 +575,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 908.742 ; gain = 615.336
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 881.934 ; gain = 612.516
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -588,7 +588,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 908.742 ; gain = 615.336
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 881.934 ; gain = 612.516
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -600,25 +600,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 908.742 ; gain = 615.336
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 881.934 ; gain = 612.516
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 908.742 ; gain = 615.336
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 881.934 ; gain = 612.516
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 908.742 ; gain = 615.336
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 881.934 ; gain = 612.516
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 908.742 ; gain = 615.336
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 881.934 ; gain = 612.516
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -674,17 +674,17 @@ Report Instance Areas:
 |12    |  U_timer        |timer   |  1472|
 +------+-----------------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 908.742 ; gain = 615.336
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 881.934 ; gain = 612.516
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 908.742 ; gain = 256.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 908.742 ; gain = 615.336
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 881.934 ; gain = 253.164
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 881.934 ; gain = 612.516
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 374 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 908.742 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 881.934 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 12 instances were transformed.
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
@@ -692,10 +692,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 89 Infos, 93 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 908.742 ; gain = 626.859
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 908.742 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 881.934 ; gain = 612.516
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 881.934 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/miniRV_SoC.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/miniRV_SoC.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file miniRV_SoC_utilization_synth.rpt -pb miniRV_SoC_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Jul 16 16:35:55 2025...
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 22 20:30:18 2025...

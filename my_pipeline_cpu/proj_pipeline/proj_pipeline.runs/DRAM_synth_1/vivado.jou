@@ -2,11 +2,11 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Fri Jul 18 09:59:42 2025
-# Process ID: 8176
-# Current directory: D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/DRAM_synth_1
+# Start of session at: Thu Jul 31 18:55:09 2025
+# Process ID: 8368
+# Current directory: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/DRAM_synth_1
 # Command line: vivado.exe -log DRAM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DRAM.tcl
-# Log file: D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/DRAM_synth_1/DRAM.vds
-# Journal file: D:/personal_archive/2025summer/my_cpu/microRVCPU/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/DRAM_synth_1\vivado.jou
+# Log file: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/DRAM_synth_1/DRAM.vds
+# Journal file: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.runs/DRAM_synth_1\vivado.jou
 #-----------------------------------------------------------
 source DRAM.tcl -notrace

@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc rfile:../../../proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc rfile:../../../proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { IOSTANDARD LVCMOS33 PACKAGE_PIN P20 } [get_ports fpga_rst]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]

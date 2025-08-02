@@ -65,21 +65,20 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7a100tfgg484-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.cache/wt [current_project]
-  set_property parent.project_path F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.xpr [current_project]
-  set_property ip_output_repo F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.cache/ip [current_project]
+  set_property webtalk.parent_dir D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.cache/wt [current_project]
+  set_property parent.project_path D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.xpr [current_project]
+  set_property ip_output_repo D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES XPM_CDC [current_project]
-  add_files -quiet F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.runs/synth_1/miniRV_SoC.dcp
-  read_ip -quiet F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/IROM/IROM.xci
-  read_ip -quiet F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk.xci
-  read_ip -quiet F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/DRAM/DRAM.xci
-  read_xdc F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_clock.xdc
-  read_xdc F:/Experiment/hitsz_cpu_design/Lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc
+  add_files -quiet D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.runs/synth_1/miniRV_SoC.dcp
+  read_ip -quiet D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/IROM/IROM.xci
+  read_ip -quiet D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/cpuclk/cpuclk.xci
+  read_ip -quiet D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/sources_1/ip/DRAM/DRAM.xci
+  read_xdc D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_clock.xdc
+  read_xdc D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.srcs/constrs_1/new/miniRV_SoC.xdc
   link_design -top miniRV_SoC -part xc7a100tfgg484-1
   close_msg_db -file init_design.pb
 } RESULT]

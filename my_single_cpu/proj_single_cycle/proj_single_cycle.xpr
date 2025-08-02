@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="C:/Users/29926/Desktop/demo/proj_single_cycle/proj_single_cycle.xpr">
+<Project Version="7" Minor="39" Path="D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_single_cpu/proj_single_cycle/proj_single_cycle.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="c7409b1ddabf4fa18ec9204b6edbe050"/>
@@ -38,13 +38,13 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="18"/>
-    <Option Name="WTModelSimExportSim" Val="18"/>
-    <Option Name="WTQuestaExportSim" Val="18"/>
-    <Option Name="WTIesExportSim" Val="18"/>
-    <Option Name="WTVcsExportSim" Val="18"/>
-    <Option Name="WTRivieraExportSim" Val="18"/>
-    <Option Name="WTActivehdlExportSim" Val="18"/>
+    <Option Name="WTXSimExportSim" Val="19"/>
+    <Option Name="WTModelSimExportSim" Val="19"/>
+    <Option Name="WTQuestaExportSim" Val="19"/>
+    <Option Name="WTIesExportSim" Val="19"/>
+    <Option Name="WTVcsExportSim" Val="19"/>
+    <Option Name="WTRivieraExportSim" Val="19"/>
+    <Option Name="WTActivehdlExportSim" Val="19"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -59,6 +59,13 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/ip/IROM/IROM.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/ip/cpuclk/cpuclk.xci">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -278,19 +285,6 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="IROM" Type="BlockSrcs" RelSrcDir="$PSRCDIR/IROM">
-      <File Path="$PSRCDIR/sources_1/ip/IROM/IROM.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <Config>
-        <Option Name="TopModule" Val="IROM"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
   </FileSets>
   <Simulators>
     <Simulator Name="XSim">
@@ -329,17 +323,6 @@
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="IROM_synth_1" Type="Ft3:Synth" SrcSet="IROM" Part="xc7a100tfgg484-1" ConstrsSet="IROM" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/IROM_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tfgg484-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
@@ -360,24 +343,6 @@
     <Run Id="DRAM_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tfgg484-1" ConstrsSet="DRAM" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="DRAM_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="IROM_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tfgg484-1" ConstrsSet="IROM" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="IROM_synth_1" IncludeInArchive="false" GenFullBitstream="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

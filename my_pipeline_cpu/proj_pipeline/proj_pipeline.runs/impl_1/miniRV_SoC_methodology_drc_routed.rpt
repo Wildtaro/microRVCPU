@@ -1,0 +1,56 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 31 19:03:28 2025
+| Host         : DESKTOP-91GG7PK running 64-bit major release  (build 9200)
+| Command      : report_methodology -file miniRV_SoC_methodology_drc_routed.rpt -pb miniRV_SoC_methodology_drc_routed.pb -rpx miniRV_SoC_methodology_drc_routed.rpx
+| Design       : miniRV_SoC
+| Device       : xc7a100tfgg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 3
++-----------+----------+--------------------------------------------------------+------------+
+| Rule      | Severity | Description                                            | Violations |
++-----------+----------+--------------------------------------------------------+------------+
+| TIMING-14 | Warning  | LUT on the clock tree                                  | 1          |
+| XDCC-1    | Warning  | Scoped Clock constraint overwritten with the same name | 1          |
+| XDCC-7    | Warning  | Scoped Clock constraint overwritten on the same source | 1          |
++-----------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-14#1 Warning
+LUT on the clock tree  
+The LUT cpu_clk_BUFG_inst_i_1 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+XDCC-1#1 Warning
+Scoped Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous scoped clock constraint with the same name. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -name fpga_clk [get_ports fpga_clk] (Source: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc (Line: 2))
+Previous: create_clock -period 10.000 [get_ports fpga_clk] (Source: d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk.xdc (Line: 56))
+Related violations: <none>
+
+XDCC-7#1 Warning
+Scoped Clock constraint overwritten on the same source  
+A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -name fpga_clk [get_ports fpga_clk] (Source: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/constrs_1/new/miniRV_clock.xdc (Line: 2))
+Previous: create_clock -period 10.000 [get_ports fpga_clk] (Source: d:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/my_pipeline_cpu/proj_pipeline/proj_pipeline.srcs/sources_1/ip/cpuclk/cpuclk.xdc (Line: 56))
+Related violations: <none>
+
+
