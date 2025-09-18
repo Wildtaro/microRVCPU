@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul 31 18:47:38 2025
+# Process ID: 23696
+# Current directory: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/课程资料/lab2/proj_miniRV_minisys/proj_single_cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27312 D:\personal_archive\2025summer\Computer_Design_and_Practice\my_cpu\课程资料\lab2\proj_miniRV_minisys\proj_single_cycle\proj_single_cycle.xpr
+# Log file: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/课程资料/lab2/proj_miniRV_minisys/proj_single_cycle/vivado.log
+# Journal file: D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/课程资料/lab2/proj_miniRV_minisys/proj_single_cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/课程资料/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/课程资料/lab2/proj_miniRV_minisys/proj_single_cycle'
+INFO: [Project 1-313] Project file moved from 'D:/personal_archive/2025summer/my_cpu/microRVCPU/课程资料/lab2/proj_miniRV_minisys/proj_single_cycle' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/cpuclk_1/cpuclk.xci', nor could it be found using path 'D:/personal_archive/2025summer/my_cpu/microRVCPU/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/cpuclk_1/cpuclk.xci'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/IROM_1/IROM.xci', nor could it be found using path 'D:/personal_archive/2025summer/my_cpu/microRVCPU/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/IROM_1/IROM.xci'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/personal_archive/2025summer/Computer_Design_and_Practice/my_cpu/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/DRAM/DRAM.xci', nor could it be found using path 'D:/personal_archive/2025summer/my_cpu/microRVCPU/lab2/proj_miniRV_minisys/proj_single_cycle/proj_single_cycle.srcs/sources_1/i/DRAM/DRAM.xci'.
+Scanning sources...
+Finished scanning sources
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'cpuclk'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'IROM'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'DRAM'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 31 18:48:13 2025...
